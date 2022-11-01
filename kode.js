@@ -6,14 +6,14 @@ function menu(){
         <div class="konten" id="konten">
             <div class="kartu" id="box-kerucut" onclick="kerucut()">
                 <div class="isi-kartu">
-                    <img id="picpiramid" src="/pic/cone.png" alt="">
+                    <img id="picpiramid" src="pic/cone.png" alt="">
                     <div>Kerucut</div>
                 </div>
 
             </div>
             <div class="kartu" onclick="bola()">
                 <div class="isi-kartu">
-                    <img id="picbola" src="/pic/sphere.png" alt="">
+                    <img id="picbola" src="pic/sphere.png" alt="">
                     <div>Bola</div>
                 </div>
             </div>
@@ -21,13 +21,13 @@ function menu(){
         <div class="konten" id="konten">
             <div class="kartu" onclick="tabung()">
                 <div class="isi-kartu">
-                    <img id="pictabung" src="/pic/cylinder.png" alt="">
+                    <img id="pictabung" src="pic/cylinder.png" alt="">
                     <div>Tabung</div>
                 </div>
             </div>
             <div class="kartu" onclick="kubus()">
                 <div class="isi-kartu">
-                    <img id="picslide" src="/pic/cube (2).png" alt="">
+                    <img id="picslide" src="pic/cube (2).png" alt="">
                     <div>Kubus</div>
                 </div>
             </div>
@@ -35,11 +35,11 @@ function menu(){
         <div class="konten" id="konten">
             <div class="kartu"  onclick="balok()">
                 <div class="isi-kartu">
-                <img id="picslide1" src="/pic/cube (1).png" alt="">
+                <img id="picslide1" src="pic/cube (1).png" alt="">
                 <div>Balok</div>
             </div></div>
             <div class="kartu"  onclick="Limas()"><div class="isi-kartu">
-                <img id="picpiramid2" src="/pic/pyramid.png" alt="">
+                <img id="picpiramid2" src="pic/pyramid.png" alt="">
                 <div>Limas</div>
             </div></div>
         </div>
@@ -55,7 +55,7 @@ function kerucut(){
     <div class="bangunVolumeKerucut">
     <div class="kerucut">
         <div class="rumus">
-            <img src="/pic/rumuKerucut.png" alt="">
+            <img src="pic/rumuKerucut.png" alt="">
         </div>
            <div class="inputKerucut">
 <div class="input">
@@ -125,7 +125,7 @@ function bola(){
      <div class="Bola">
          <div class="rumus">
              
-             <img src="/pic/rumusBola.png" alt="">
+             <img src="pic/rumusBola.png" alt="">
          </div> 
          <div class="input"> 
              <div class="form">
@@ -165,7 +165,7 @@ function tabung(){
         <div class="bangunVolumeTabung">
                 <div class="tabung">
                     <div class="rumus">
-                        <img src="/pic/volumtabung.png" alt="">
+                        <img src="pic/volumtabung.png" alt="">
                     </div>
 
                     <div class="input"> 
@@ -220,7 +220,7 @@ function kubus(){
     <div class="bangunVolumeKubus">
     <div class="kubus">
         <div class="rumus">
-            <img src="/pic/rumuskubus.png" alt="">
+            <img src="pic/rumuskubus.png" alt="">
         </div>
 
         <div class="input"> 
@@ -260,7 +260,7 @@ function balok(){
     document.getElementById("isi").innerHTML=` <div class="bangunVolumeBalok">
     <div class="Balok">
         <div class="rumus">
-            <img src="/pic/rumusbalok.jpg" alt="">
+            <img src="pic/rumusbalok.jpg" alt="">
         </div>
 
         <div class="input"> 
@@ -315,7 +315,7 @@ function Limas(){
     document.getElementById("isi").innerHTML=`<div class="bangunVolumeLimas">
     <div class="Limas">
         <div class="rumus">
-            <img src="/pic/rumusLimas.jpg" alt="">
+            <img src="pic/rumusLimas.jpg" alt="">
         </div>
 
         <div class="input"> 

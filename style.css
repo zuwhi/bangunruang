@@ -1,0 +1,306 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #2F8F9D;}
+/* .container{
+   
+} */
+.layout{
+    cursor: url("/pic/telunjuk.png"),auto;
+    
+    background-color:#3BACB6;
+    margin: 20px auto;
+    position: relative;
+    width: 350px;
+    height:100%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.nav-menu{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.nav-menu img{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+.nav-menu img:hover{
+    top: -6px;
+    left: 5px;
+    width: 70px;
+    height: 70px;
+
+}
+header{
+    height: 50px;
+    width: auto;
+    background-color: #82DBD8;
+    display: flex;
+    padding: 1px;
+    white-space: nowrap;
+    justify-content: space-evenly;
+}
+#judul{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.konten{
+    cursor: url("/pic/telunjuk.png"),auto;
+    display: flex;
+    margin: 0px 30px;
+    justify-content: space-around;
+}
+.kartu{
+    
+    margin: 30px auto;
+    margin-top: 20px;
+    transition: 0.5s;
+   
+    height: 130px;
+    width: 130px; 
+    background-color: rgb(212, 217, 221);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.kartu:hover{
+    margin-top: 35px;
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.kartu .isi-kartu{
+margin: 0px 11px;
+}
+
+.kartu div{
+    text-align: center;
+    font-weight: bold;
+}
+.kartu img{
+width: 100px;
+height: 100px;
+
+
+}
+#picbola{
+animation: putar 4s;
+animation-iteration-count: infinite;
+}
+#pictabung{
+animation: putart 6s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+}
+#picpiramid{
+animation: flp 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+#picpiramid2{
+animation: flp 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+#picslide{
+animation: slide 1.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+#picslide1{
+animation: slide1 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes flp{
+0%{ transform: translateY(0) rotateY(90deg);}
+100%{transform: translateY(300) rotateY(360deg);}
+
+}
+@keyframes flp1{
+0%{ transform: translateY(0) rotateY(0deg);}
+100%{transform: translateY(150) rotateY(360deg);}
+
+}
+@keyframes putar{
+0%{ transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+
+}
+@keyframes putart{
+0%{ transform: rotate(0deg);}
+25%{ transform: rotate(90deg);}
+50%{ transform: rotate(180deg);}
+75%{ transform: rotate(270deg);}
+100%{transform: rotate(360deg);}
+
+}
+@keyframes slide{
+0%{ transform:translateX(-6px);}
+100%{transform:translateX(5px);}
+
+}
+@keyframes slide1{
+0%{ transform:translateY(-2px);}
+100%{transform:translateY(15px);}
+
+}
+
+
+.rumus { 
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.rumus img{
+    width: 300px;
+    height: 180px;
+    
+}
+.input{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3BACB6;
+    padding-top:15px;
+ 
+
+}
+.form{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    
+}
+.form input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid turquoise;
+    padding: 0 10px;
+    position: absolute;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: url("/pic/anka.png"),auto;
+
+}
+.form span{
+    
+    position: absolute;
+    display: inline-block;
+    top: 13px;
+    left: 15px;
+    color: white;
+    font-size: 22px;
+    transition: 0.5s;
+    margin: 0 0px;
+    padding: 0px 2px;
+    pointer-events: none;
+
+}
+
+
+
+.input .form input:focus ~ span,
+.input .form input:valid~ span
+
+ {
+    transform:  translateY(-28px);
+    background-color:#3BACB6;
+    ;
+}
+
+
+
+#tabel tr td{
+    font-size:28px;   
+}
+.clik{
+    padding-top: 100px;
+}
+
+.submit{
+    cursor: url("/pic/telunjuk.png"),auto;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(214, 228, 12);
+    width: 100%;
+    height: 80px;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+}
+.submit:hover{
+    background-color: rgb(226, 216, 32);
+    width: 100%;
+    height: 85px;
+    color: rgb(255, 255, 255);
+}
+
+.cetak-hasil h2{
+    text-align: center;
+    position: relative;
+    top: -10px;
+
+}
+.hasil{
+    background-color: #82DBD8;
+    width: max-content;
+    height: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0 5px;
+    animation: cetak 3s;
+}
+
+.hasil div{
+    font-size: 30px; 
+    white-space: nowrap;
+    text-align: center;
+    animation: cetak 1s;
+    
+    margin-top: -20px;
+    
+}
+@keyframes cetak {
+    0%{ transform:translateY(4px);
+    opacity: 0;};
+    100%{transform:translateY(0px);
+    opacity: 1;};
+}
+.hasil p{
+    
+    margin-left: 0;
+    font-size: 25px;}
+
+@media screen and (min-width: 450px) {
+    .layout{
+        width: 450px;
+    }
+    
+}
